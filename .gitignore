@@ -1,0 +1,13 @@
+# Unity generates these next to package files; they are part of the package
+# and MUST be committed, so nothing meta-related is ignored here.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Rider / VS
+.idea/
+.vs/
+*.user

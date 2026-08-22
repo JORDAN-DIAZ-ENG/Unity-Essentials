@@ -1,0 +1,22 @@
+{
+  "name": "com.jordan-diaz-eng.essentials",
+  "version": "0.1.0",
+  "displayName": "Unity Essentials",
+  "description": "Reusable game systems that survive between projects. Audio first, with juice, scene management and more to follow.\n\nEach system lives in its own assembly so projects only pay for what they use.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Jordan Diaz",
+    "url": "https://github.com/JORDAN-DIAZ-ENG"
+  },
+  "keywords": [
+    "audio",
+    "juice",
+    "gamejam",
+    "utilities",
+    "essentials"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.modules.audio": "1.0.0"
+  }
+}
