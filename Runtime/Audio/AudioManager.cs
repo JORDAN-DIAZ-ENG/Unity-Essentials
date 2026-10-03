@@ -263,11 +263,17 @@ namespace Essential.Audio
         // Internals
         // ------------------------------------------------------------------
 
+        // Domain reload can be switched off in Enter Play Mode settings, in which
+        // case statics survive between play sessions. Every static field above
+        // must be restored to its declared initial value here.
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         static void ResetStatics()
         {
             _bank = null;
             _bankResolved = false;
+            _masterVolume = 1f;
+            _sfxVolume = 1f;
+            _bgmVolume = 1f;
             _volumesSeeded = false;
         }
 

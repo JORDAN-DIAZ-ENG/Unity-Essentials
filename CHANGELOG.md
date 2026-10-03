@@ -4,6 +4,14 @@ All notable changes to this package are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-10-03
+
+### Fixed
+
+- With domain reload disabled, volume changes from one play session could carry
+  into the next when no bank was loaded. `AudioManager` now resets every static
+  field on entering play mode, not just the bank reference.
+
 ## [0.1.0] - 2026-08-21
 
 First release as a package. Extracted from the Unity Essentials project, where the

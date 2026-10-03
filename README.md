@@ -21,7 +21,7 @@ https://github.com/JORDAN-DIAZ-ENG/Unity-Essentials.git
 To pin a version, append a tag:
 
 ```
-https://github.com/JORDAN-DIAZ-ENG/Unity-Essentials.git#v0.1.0
+https://github.com/JORDAN-DIAZ-ENG/Unity-Essentials.git#v0.1.1
 ```
 
 Or add it straight to `Packages/manifest.json`:
