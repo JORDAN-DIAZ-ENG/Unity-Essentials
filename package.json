@@ -1,8 +1,8 @@
 {
   "name": "com.jordan-diaz-eng.essentials",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "displayName": "Unity Essentials",
-  "description": "Reusable game systems that survive between projects. Audio first, with juice, scene management and more to follow.\n\nEach system lives in its own assembly so projects only pay for what they use.",
+  "description": "Reusable game systems that survive between projects. Audio and juice (screen shake, hitstop, slow motion, hit flash, squash and stretch), with scene management and more to follow.\n\nEach system lives in its own assembly so projects only pay for what they use.",
   "unity": "2022.3",
   "author": {
     "name": "Jordan Diaz",
@@ -11,6 +11,8 @@
   "keywords": [
     "audio",
     "juice",
+    "screen shake",
+    "hitstop",
     "gamejam",
     "utilities",
     "essentials"

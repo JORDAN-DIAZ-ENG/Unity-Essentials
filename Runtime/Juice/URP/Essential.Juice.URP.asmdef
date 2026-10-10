@@ -1,0 +1,26 @@
+{
+    "name": "Essential.Juice.URP",
+    "rootNamespace": "Essential.Juice.URP",
+    "references": [
+        "Essential.Juice",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ESSENTIAL_JUICE_URP"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "14.0.0",
+            "define": "ESSENTIAL_JUICE_URP"
+        }
+    ],
+    "noEngineReferences": false
+}
